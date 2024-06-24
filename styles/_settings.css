@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.page {
+
+}
+
+.page__body {
+    font-family: var(--font-family);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 var(--container-offset);
+    max-width: calc(var(--container-width) + (var(--container-offset) * 2));
+}
