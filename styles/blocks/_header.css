@@ -1,11 +1,28 @@
 .header {
-    
+    background-color: var(--white);
 }
 
 .header__container {
     display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    img {
+        padding: 20px 0;
+    }
 }
 
 .header__buttons {
-    
+    display: flex;
+    margin: 0;
+    padding: 20px 0;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
 }

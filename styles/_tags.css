@@ -1,0 +1,11 @@
+.info-tag {
+  display: inline-block;
+  padding: 3px 15px;
+  background-color: var(--info-tag-bg);
+  border-radius: 15px;
+  cursor: default;
+}
+
+.info-tag--hidden {
+  display: none;
+}

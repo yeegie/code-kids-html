@@ -1,7 +1,18 @@
 :root {
-    --font-family: "Noto Sans", sans-serif;
+  --font-family: "Noto Sans", sans-serif;
 
-    --gap: 20px;
-    --container-width: 1300px;
-    --container-offset: 15px;
+  --gap: 20px;
+  --container-width: 1300px;
+  --container-offset: 15px;
+
+  /* ColorSheme */
+  --white: #f8ede3;
+  --black: #212121;
+  --light: #bdd2b6;
+  --medium: #a2b29f;
+  --dark: #798777;
+
+  --info-tag-bg: #ffe500;
+
+  --course-card-bg: #f2f2f2;
 }

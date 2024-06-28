@@ -4,6 +4,21 @@
 @import url("./_settings.css");
 
 /* Blocks */
-/* === Header === */
-@import url("./blocks/_header")
+@import url("./blocks/_header.css");
+@import url("./blocks/_welcome.css");
+@import url("./blocks/_courses.css");
 
+/* Buttons */
+@import url("./_buttons.css");
+
+/* Tags */
+@import url("./_tags.css");
+
+/* Titles */
+@import url("./_title.css");
+
+/* Colors */
+@import url("./_colors.css");
+
+/* Grid */
+@import url("./_grid.css");

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html class="page" lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -10,7 +10,9 @@
     <header class="header">
       <div class="container header__container">
         <div class="header__logo">
-          <img src="logo.svg" alt="_CodeKids" />
+          <a href="#">
+            <img src="./logo.svg" alt="_CodeKids" />
+          </a>
         </div>
         <div class="header__buttons_container">
           <ul class="header__buttons">
@@ -27,5 +29,145 @@
         </div>
       </div>
     </header>
+    <div class="welcome">
+      <div class="container welcome__container">
+        <div>
+          <h1>Программирование для детей</h1>
+          <p>Развитие в ребёнке креативности и поиске не стандартных решений</p>
+        </div>
+        <div class="welcome__filter_container">
+          <button class="button_primary">Веб-приложения</button>
+          <button class="button_primary">Backend</button>
+          <button class="button_primary">Fullstack</button>
+          <button class="button_primary">Python</button>
+          <button class="button_primary">Telegram-боты</button>
+          <button class="button_primary">JavaScript</button>
+          <button class="button_primary">Анализ данных</button>
+        </div>
+      </div>
+    </div>
+    <section class="courses">
+      <div class="container">
+        <h1 class="title-medium">Курсы (8)</h1>
+        <div class="courses__list grid">
+          <article class="courses__card yellow">
+            <div class="courses-list__info-tag info-tag">★ Популярно</div>
+            <div class="courses__card-body">
+              <div>
+                <h2>Python</h2>
+                <p>6 месяцев</p>
+              </div>
+              <img
+                src="./images/python.webp"
+                alt="Python"
+              />
+            </div>
+          </article>
+          <article class="courses__card blue">
+            <div class="courses-list__info-tag info-tag">★ Популярно</div>
+            <div class="courses__card-body">
+              <div>
+                <h2>TypeScript</h2>
+                <p>3 месяца</p>
+              </div>
+              <img
+                src="./images/typescript.png"
+                alt="TypeScript"
+              />
+            </div>
+          </article>
+          <article class="courses__card pink">
+            <div class="courses-list__info-tag info-tag">★ Популярно</div>
+            <div class="courses__card-body">
+              <div>
+                <h2>Backend</h2>
+                <p>12 месяцев</p>
+              </div>
+              <img
+                src="./images/nestjs.png"
+                alt="Backend"
+              />
+            </div>
+          </article>
+          <article class="courses__card grey">
+            <div class="courses-list__info-tag info-tag">★ Популярно</div>
+            <div class="courses__card-body">
+              <div>
+                <h2>Fullstack</h2>
+                <p>6 месяцев</p>
+              </div>
+              <img
+                src="./images/gear.webp"
+                alt="Fullstack"
+              />
+            </div>
+          </article>
+          <article class="courses__card">
+            <div class="courses-list__info-tag info-tag info-tag--hidden">
+              ★ Популярно
+            </div>
+            <div class="courses__card-body">
+              <div>
+                <h2>Time-managment</h2>
+                <p>6 месяцев</p>
+              </div>
+              <img
+                src="./images/folder.png"
+                alt="Основы программирования"
+              />
+            </div>
+          </article>
+          <article class="courses__card">
+            <div class="courses-list__info-tag info-tag">★ Популярно</div>
+            <div class="courses__card-body">
+              <div>
+                <h2>Быстрый старт</h2>
+                <p>1 месяц</p>
+              </div>
+              <img
+                src="./images/rocket.png"
+                alt="Быстрый старт"
+              />
+            </div>
+          </article>
+          <article class="courses__card">
+            <div class="courses-list__info-tag info-tag info-tag--hidden">
+              ★ Популярно
+            </div>
+            <div class="courses__card-body">
+              <div>
+                <h2>СУБД</h2>
+                <p>6 месяцев</p>
+              </div>
+              <img
+                src="./images/database.png"
+                alt="Backend"
+              />
+            </div>
+          </article>
+          <article class="courses__card">
+            <div class="courses-list__info-tag info-tag">★ Популярно</div>
+            <div class="courses__card-body">
+              <div>
+                <h2>Telegram-боты</h2>
+                <p>3 месяца</p>
+              </div>
+              <img
+                src="./images/robot.png"
+                alt="Боты"
+              />
+            </div>
+          </article>
+        </div>
+        <div class="button-centered">
+          <button class="button_outline">
+            <span class="button_outline__icon">
+              <img src="./refresh-svgrepo-com.svg" alt="more courses" />
+            </span>
+            Ещё 4 курсa
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

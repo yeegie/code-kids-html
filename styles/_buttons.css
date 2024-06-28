@@ -1,0 +1,55 @@
+.button_primary {
+  background-color: #d9d9d9;
+
+  font-size: 14px;
+  border: none;
+
+  border-radius: 20px;
+  height: 35px;
+  padding: 0 1.5rem;
+
+  cursor: pointer;
+
+  transition: background-color ease 0.3s;
+}
+
+.button_outline {
+  background-color: transparent;
+  color: var(--black);
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  outline: solid grey 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  .button_outline__icon {
+    padding-right: 10px;
+
+    img {
+      width: 13px;
+    }
+  }
+
+  transition: border-radius,
+  outline,
+  ease 0.3s;
+}
+
+.button-centered {
+  display: flex;
+  justify-content: center;
+}
+
+@media (any-hover: hover) {
+  .button_primary:hover {
+    background-color: var(--dark);
+    color: white;
+  }
+
+  .button_outline:hover {
+    border-radius: 20px;
+    outline: solid var(--black) 2px;
+  }
+}

@@ -1,0 +1,12 @@
+.title-medium {
+  margin: 0;
+  font-size: 25px;
+}
+
+.title-centered {
+  text-align: center;
+}
+
+.title-medium-mb {
+  margin-bottom: 20px;
+}
